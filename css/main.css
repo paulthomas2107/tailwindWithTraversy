@@ -770,6 +770,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-l-full {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
@@ -941,6 +945,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-brightRed:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
+}
+
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
@@ -954,6 +963,10 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.focus\:outline:focus {
+  outline-style: solid;
 }
 
 @media (min-width: 480px) {
